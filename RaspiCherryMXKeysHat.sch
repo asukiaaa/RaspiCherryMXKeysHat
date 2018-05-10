@@ -1,0 +1,375 @@
+EESchema Schematic File Version 4
+LIBS:RaspiCherryMXKeysHat-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6850 4350 6850 4450
+Wire Wire Line
+	6150 4350 6150 4450
+Wire Wire Line
+	6150 4450 6250 4450
+Connection ~ 6850 4450
+Wire Wire Line
+	6850 4450 6850 4550
+Wire Wire Line
+	6250 4350 6250 4450
+Connection ~ 6250 4450
+Wire Wire Line
+	6250 4450 6350 4450
+Wire Wire Line
+	6350 4350 6350 4450
+Connection ~ 6350 4450
+Wire Wire Line
+	6350 4450 6450 4450
+Wire Wire Line
+	6450 4350 6450 4450
+Connection ~ 6450 4450
+Wire Wire Line
+	6450 4450 6550 4450
+Wire Wire Line
+	6550 4350 6550 4450
+Connection ~ 6550 4450
+Wire Wire Line
+	6550 4450 6650 4450
+Wire Wire Line
+	6650 4350 6650 4450
+Connection ~ 6650 4450
+Wire Wire Line
+	6650 4450 6750 4450
+Wire Wire Line
+	6750 4350 6750 4450
+Connection ~ 6750 4450
+Wire Wire Line
+	6750 4450 6850 4450
+Text GLabel 5650 2450 0    39   Input ~ 0
+GPIO17(GEN0)
+Text GLabel 5650 2550 0    39   Input ~ 0
+GPIO18(GEN1)
+Text GLabel 5650 2950 0    39   Input ~ 0
+GPIO22(GEN3)
+Text GLabel 5650 3050 0    39   Input ~ 0
+GPIO23(GEN4)
+Text GLabel 5650 3150 0    39   Input ~ 0
+GPIO24(GEN5)
+Text GLabel 5650 3250 0    39   Input ~ 0
+GPIO25(GEN6)
+$Comp
+L power:GND #PWR0103
+U 1 1 5ABA5F9A
+P 6850 4550
+F 0 "#PWR0103" H 6850 4300 50  0001 C CNN
+F 1 "GND" H 6855 4377 50  0000 C CNN
+F 2 "" H 6850 4550 50  0001 C CNN
+F 3 "" H 6850 4550 50  0001 C CNN
+	1    6850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5AE76F6E
+P 6950 4450
+F 0 "#FLG0101" H 6950 4525 50  0001 C CNN
+F 1 "PWR_FLAG" V 6950 4578 50  0000 L CNN
+F 2 "" H 6950 4450 50  0001 C CNN
+F 3 "" H 6950 4450 50  0001 C CNN
+	1    6950 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 4450 6850 4450
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 5AF793B8
+P 6550 3050
+F 0 "J1" H 6550 4528 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 6550 4437 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 7550 4300 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/RPI-3B-V1_2-SCHEMATIC-REDUCED.pdf" H 6600 2900 50  0001 C CNN
+	1    6550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5AF7AB29
+P 4200 2200
+F 0 "SW1" H 4200 2485 50  0000 C CNN
+F 1 "SW_Push" H 4200 2394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4200 2400 50  0001 C CNN
+F 3 "" H 4200 2400 50  0001 C CNN
+	1    4200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5AF7AB56
+P 4200 2600
+F 0 "SW2" H 4200 2885 50  0000 C CNN
+F 1 "SW_Push" H 4200 2794 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4200 2800 50  0001 C CNN
+F 3 "" H 4200 2800 50  0001 C CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5AF7AB80
+P 4200 3000
+F 0 "SW3" H 4200 3285 50  0000 C CNN
+F 1 "SW_Push" H 4200 3194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4200 3200 50  0001 C CNN
+F 3 "" H 4200 3200 50  0001 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5AF7ABA4
+P 4200 3400
+F 0 "SW4" H 4200 3685 50  0000 C CNN
+F 1 "SW_Push" H 4200 3594 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4200 3600 50  0001 C CNN
+F 3 "" H 4200 3600 50  0001 C CNN
+	1    4200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5AF7ABCA
+P 4200 3800
+F 0 "SW5" H 4200 4085 50  0000 C CNN
+F 1 "SW_Push" H 4200 3994 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4200 4000 50  0001 C CNN
+F 3 "" H 4200 4000 50  0001 C CNN
+	1    4200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5AF7AC62
+P 4200 4200
+F 0 "SW6" H 4200 4485 50  0000 C CNN
+F 1 "SW_Push" H 4200 4394 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4200 4400 50  0001 C CNN
+F 3 "" H 4200 4400 50  0001 C CNN
+	1    4200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5AF7B3EF
+P 3800 2600
+F 0 "R2" V 3593 2600 50  0000 C CNN
+F 1 "R" V 3684 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" V 3730 2600 50  0001 C CNN
+F 3 "~" H 3800 2600 50  0001 C CNN
+	1    3800 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5AF7B481
+P 4450 2600
+F 0 "#PWR0101" H 4450 2350 50  0001 C CNN
+F 1 "GND" H 4455 2427 50  0000 C CNN
+F 2 "" H 4450 2600 50  0001 C CNN
+F 3 "" H 4450 2600 50  0001 C CNN
+	1    4450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2600 3650 2600
+Wire Wire Line
+	4400 2600 4450 2600
+$Comp
+L Device:R R1
+U 1 1 5AF7BD42
+P 3800 2200
+F 0 "R1" V 3593 2200 50  0000 C CNN
+F 1 "R" V 3684 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" V 3730 2200 50  0001 C CNN
+F 3 "~" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5AF7BD49
+P 4450 2200
+F 0 "#PWR0102" H 4450 1950 50  0001 C CNN
+F 1 "GND" H 4455 2027 50  0000 C CNN
+F 2 "" H 4450 2200 50  0001 C CNN
+F 3 "" H 4450 2200 50  0001 C CNN
+	1    4450 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2200 3650 2200
+Wire Wire Line
+	4400 2200 4450 2200
+$Comp
+L Device:R R3
+U 1 1 5AF7C0F9
+P 3800 3000
+F 0 "R3" V 3593 3000 50  0000 C CNN
+F 1 "R" V 3684 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" V 3730 3000 50  0001 C CNN
+F 3 "~" H 3800 3000 50  0001 C CNN
+	1    3800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5AF7C100
+P 4450 3000
+F 0 "#PWR0104" H 4450 2750 50  0001 C CNN
+F 1 "GND" H 4455 2827 50  0000 C CNN
+F 2 "" H 4450 3000 50  0001 C CNN
+F 3 "" H 4450 3000 50  0001 C CNN
+	1    4450 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3000 3650 3000
+Wire Wire Line
+	4400 3000 4450 3000
+$Comp
+L Device:R R4
+U 1 1 5AF7C534
+P 3800 3400
+F 0 "R4" V 3593 3400 50  0000 C CNN
+F 1 "R" V 3684 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" V 3730 3400 50  0001 C CNN
+F 3 "~" H 3800 3400 50  0001 C CNN
+	1    3800 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5AF7C53B
+P 4450 3400
+F 0 "#PWR0105" H 4450 3150 50  0001 C CNN
+F 1 "GND" H 4455 3227 50  0000 C CNN
+F 2 "" H 4450 3400 50  0001 C CNN
+F 3 "" H 4450 3400 50  0001 C CNN
+	1    4450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3400 3650 3400
+Wire Wire Line
+	4400 3400 4450 3400
+$Comp
+L Device:R R5
+U 1 1 5AF7CA5E
+P 3800 3800
+F 0 "R5" V 3593 3800 50  0000 C CNN
+F 1 "R" V 3684 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" V 3730 3800 50  0001 C CNN
+F 3 "~" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5AF7CA65
+P 4450 3800
+F 0 "#PWR0106" H 4450 3550 50  0001 C CNN
+F 1 "GND" H 4455 3627 50  0000 C CNN
+F 2 "" H 4450 3800 50  0001 C CNN
+F 3 "" H 4450 3800 50  0001 C CNN
+	1    4450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3800 3650 3800
+Wire Wire Line
+	4400 3800 4450 3800
+$Comp
+L Device:R R6
+U 1 1 5AF7D041
+P 3800 4200
+F 0 "R6" V 3593 4200 50  0000 C CNN
+F 1 "R" V 3684 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" V 3730 4200 50  0001 C CNN
+F 3 "~" H 3800 4200 50  0001 C CNN
+	1    3800 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5AF7D048
+P 4450 4200
+F 0 "#PWR0107" H 4450 3950 50  0001 C CNN
+F 1 "GND" H 4455 4027 50  0000 C CNN
+F 2 "" H 4450 4200 50  0001 C CNN
+F 3 "" H 4450 4200 50  0001 C CNN
+	1    4450 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4200 3650 4200
+Wire Wire Line
+	4400 4200 4450 4200
+Text GLabel 3600 2200 0    39   Input ~ 0
+GPIO17(GEN0)
+Text GLabel 3600 2600 0    39   Input ~ 0
+GPIO18(GEN1)
+Text GLabel 3600 3000 0    39   Input ~ 0
+GPIO22(GEN3)
+Text GLabel 3600 3400 0    39   Input ~ 0
+GPIO23(GEN4)
+Text GLabel 3600 3800 0    39   Input ~ 0
+GPIO24(GEN5)
+Text GLabel 3600 4200 0    39   Input ~ 0
+GPIO25(GEN6)
+NoConn ~ 6350 1750
+NoConn ~ 6450 1750
+NoConn ~ 6650 1750
+NoConn ~ 6750 1750
+NoConn ~ 5650 2350
+NoConn ~ 5650 2650
+NoConn ~ 5650 2750
+NoConn ~ 5650 2850
+NoConn ~ 5650 3850
+NoConn ~ 5650 3750
+NoConn ~ 5650 3450
+NoConn ~ 5650 3350
+NoConn ~ 7450 3850
+NoConn ~ 7450 3750
+NoConn ~ 7450 3550
+NoConn ~ 7450 3450
+NoConn ~ 7450 3250
+NoConn ~ 7450 3150
+NoConn ~ 7450 3050
+NoConn ~ 7450 2950
+NoConn ~ 7450 2850
+NoConn ~ 7450 2650
+NoConn ~ 7450 2550
+NoConn ~ 7450 2350
+NoConn ~ 7450 2250
+NoConn ~ 7450 2150
+Wire Wire Line
+	3950 2600 4000 2600
+Wire Wire Line
+	3950 2200 4000 2200
+Wire Wire Line
+	3950 3000 4000 3000
+Wire Wire Line
+	3950 3400 4000 3400
+Wire Wire Line
+	3950 3800 4000 3800
+Wire Wire Line
+	3950 4200 4000 4200
+$EndSCHEMATC
