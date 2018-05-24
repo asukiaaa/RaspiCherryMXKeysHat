@@ -23,3 +23,6 @@ _autosave-*
 
 # Unknown files
 # *.bin
+
+# FreeCAD backup file
+*.fcstd1
